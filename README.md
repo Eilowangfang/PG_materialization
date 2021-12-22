@@ -9,6 +9,6 @@ This code is modified based on PG. What I want to achieve is to collect all the 
 ## Usage
 The code is based on PostgreSQL v13.0, you can replace the folder **src/backend/exectuor** directly, and then its supposed to work.
 
-##
+## Author
 If you are user Wechat, you may follow public account "LearnDB"
 ![qrcode_for_gh_e6d9389929b9_258](https://user-images.githubusercontent.com/52020936/147086636-6c6a5d22-b2b2-4d60-baf0-06303cbbde40.jpg)
