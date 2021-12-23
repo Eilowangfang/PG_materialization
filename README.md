@@ -6,6 +6,11 @@
 This code is modified based on PG. What I want to achieve is to collect all the return tuple from the child plan of Hash Join (specially, the Hash build node at PG's execution plan). The most modified code is at src/backend/executor/nodeHash.c, which is referenced by src/backend/utils/sort/tuplestore.c and src/backend/executor/nodeMaterial.c 
 ![image](https://user-images.githubusercontent.com/52020936/147085247-3b9ac023-3d4e-4b86-a58b-8a7ed0222ba5.png)
 
+The functions that I added:
+*ExecInitMaterialAtHashNode
+*ExecMaterialAtHashNode
+*ExecEndMaterialAtHashNode
+
 ## Usage
 The code is based on PostgreSQL v13.0, you can replace the folder **src/backend/exectuor** directly, and then its supposed to work.
 
