@@ -15,6 +15,7 @@ The functions that I added:
 The code is based on PostgreSQL v13.0, you can replace the folder **src/backend/exectuor** directly, and then its supposed to work.
 
 ## Author
-If you are user of Wechat, you may follow my public account "LearnDB"
+Fang WANG. The Hong Kong Polytechnic University 
+If you are user of Wechat, you may follow my public account "LearnDB".
 
 ![qrcode_for_gh_e6d9389929b9_258](https://user-images.githubusercontent.com/52020936/147086636-6c6a5d22-b2b2-4d60-baf0-06303cbbde40.jpg)
